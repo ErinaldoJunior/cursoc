@@ -1,0 +1,48 @@
+body {
+  margin: 0 auto;
+  background-color:#EEEEEE;
+  font-family: 'Poppins', sans-serif;
+  color: #40403F;
+}
+
+a, ul, li, h1, h2, p, h3 {
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.fonte-pequena {
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.fonte-media {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.fonte-grande {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.texto {
+  font-family: 'Crimson Text', serif;
+}
+
+.cor1{
+  color: #40403F;
+}
+.cor2{
+  color:#EEEEEE;
+}
+.cor3{
+  color: #246BFD;
+}
+
+.cor4 {
+  color: rgba(0, 0, 0, .4);
+}
+

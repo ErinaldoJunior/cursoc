@@ -1,0 +1,24 @@
+.intro {
+  margin: 0 auto;
+  margin-top: 200px;
+  justify-content: center;
+}
+.bemvindo {
+  display: grid;
+  justify-items: center;
+  gap: 60px;
+  padding: 30px 60px;
+}
+
+
+.bemvindo h2 {
+  font-size: 8rem;
+  text-align: center; 
+  font-weight: 700;
+  line-height: 1;
+}
+
+.id-curso{
+  margin-top: -40px;
+}
+

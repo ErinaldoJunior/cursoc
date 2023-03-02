@@ -1,0 +1,44 @@
+#topicos{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.topicos {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  justify-items: center;
+  gap: 100px;
+  align-items: center;
+  padding-top: 180px;
+}
+.topicos h2{
+  font-size: 14rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: rgba(0, 0, 0, .1);
+  text-shadow: 0 400px rgba(0, 0, 0, .1), 0 200px rgba(0, 0, 0, .1), 0 -400px rgba(0, 0, 0, .1), 0 -200px rgba(0, 0, 0, .1);
+}
+.lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  flex-direction: column;
+}
+
+.lista li a {
+  background-image: linear-gradient(to right, #4776E6 0%, #8E54E9  51%, #4776E6  100%);
+    padding: 15px 25px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #eeeeee;            
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+    border-radius: 2px;
+    display: block;
+    font-size: .875rem;
+  }
+
+  .lista li a:hover {
+    background-position: right center; /* change the direction of the change here */
+  }

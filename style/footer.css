@@ -1,0 +1,23 @@
+footer {
+  margin-top: 80px;
+  background-image: linear-gradient(to right,#246BFD 11.2%,  rgba(62,161,219,1) 100.2%);
+}
+
+.footer-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  padding: 30px 0px;
+  justify-content: space-around;
+  color: #eee;
+  align-items: center;
+}
+
+.footer-grid h2 {
+ font-size: 1rem;
+}
+
+.footer-grid a {
+  color: #eee;
+  font-size: 1.125rem;
+}

@@ -1,0 +1,109 @@
+header {
+  background: #f2f2f2;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.5); 
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 0;
+  position: relative;
+}
+
+.lista-menu { 
+  display: none;
+  flex-wrap: wrap;
+  position: absolute;
+  left: 0;
+  top: 101px;
+  margin-left: 3%;
+  background: #f2f2f2;
+  padding: 10px;
+  border-radius: 0 0 3px 3px;
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.4);
+  gap: 5px;
+  flex-direction: column;
+}
+
+.lista-menu li a {
+  background-image: linear-gradient(to right,#246BFD 11.2%,  rgba(62,161,219,1) 100.2%);
+    padding: 10px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #eeeeee;            
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+    border-radius: 2px;
+    display: block;
+    font-size: .75rem;
+  }
+
+
+.grid-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  max-width: 80px;
+}
+
+.titulo {
+  text-transform: capitalize;
+}
+
+         
+.btn-grad {
+  background-image: linear-gradient(to right,#246BFD 11.2%,  rgba(62,161,219,1) 100.2%);
+  padding: 15px 25px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.3s;
+  background-size: 200% auto;
+  color: #f2f2f2;            
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+  display: block;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu {
+  transition: .3s;
+  cursor: pointer;
+  width: 40px;
+}
+
+.ativar-menu {
+  transform: rotate(90deg);
+}
+
+.ativar-dropdown {
+  display: flex;
+  animation: show-up 0.3s forwards;
+}
+
+@keyframes show-up {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -30px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
