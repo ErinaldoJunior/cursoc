@@ -20,9 +20,6 @@ iframe {
   gap: 20px;
 }
 
-.ultimo-conteudo {
-  border-bottom: none;
-}
 
 .conteudo-texto {
   display: grid;
@@ -53,9 +50,56 @@ iframe {
 }
 
 pre {
+  width: max-content;
   padding: 10px;
   background:#40403F;
-  font-size: .875rem;
+  font-size: .75rem;
   color: #eee;
   border: 2px;
+}
+
+@media (max-width: 1000px) {
+  .grid-conteudo {
+    justify-content: center;
+    align-items: center;
+  }
+  .grid-conteudo .btn-grad {
+    justify-self: center;
+  }
+
+}
+
+@media (max-width: 1000px) {
+  .conteudo {
+    padding-top: 40px;
+  }
+  .grid-conteudo {
+    justify-content: center;
+    align-items: center;
+  }
+  .grid-conteudo .btn-grad {
+    justify-self: center;
+    font-size: .75rem;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .conteudo-texto h2, 
+  .exercicio h2 {
+    text-align: center;
+  }
+
+.conteudo-texto h2, .exercicio h2 {
+    font-size: 1.125rem;
+  }
+
+  .conteudo-texto p, .exercicio p, .exercicio li {
+    font-size: .75rem;
+  }
+
+  iframe {
+    width: 300px;
+    height: 150px;
+  }
 }

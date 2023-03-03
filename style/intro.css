@@ -22,3 +22,33 @@
   margin-top: -40px;
 }
 
+@media (max-width: 1000px) {
+  .bemvindo h2 {
+    font-size: 6rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .bemvindo h2 {
+    font-size: 3rem;
+  }
+  .bemvindo p {
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 550px) {
+  .bemvindo h2 {
+    font-size: 2rem;
+  }
+  .bemvindo p {
+    font-size: .75rem;
+    text-align: center;
+  }
+  .bemvindo .btn-grad {
+    font-size: .7rem;
+    padding: 10px 20px;
+  }
+
+}

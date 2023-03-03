@@ -3,13 +3,12 @@
   margin: 0 auto;
 }
 .topicos {
-  margin: 0 auto;
   display: grid;
   grid-template-columns: 2fr 1fr;
   justify-items: center;
   gap: 100px;
   align-items: center;
-  padding-top: 180px;
+  padding: 180px 60px 60px 0px;
 }
 .topicos h2{
   font-size: 14rem;
@@ -41,4 +40,37 @@
 
   .lista li a:hover {
     background-position: right center; /* change the direction of the change here */
+  }
+
+  @media (max-width: 1000px) {
+    .topicos h2 {
+      font-size: 8rem;
+    }
+  }
+
+  @media (max-width: 750px) {
+    .topicos h2 {
+      font-size: 8rem;
+      text-shadow: none;
+    }
+    .topicos {
+      grid-template-columns: 1fr;
+      justify-content: center;
+      gap: 50px;
+      padding: 60px 20px;
+    }
+    
+  }
+
+  @media (max-width: 450px) {
+    .topicos h2 {
+      font-size: 4rem;
+    }
+    .lista {
+      gap: 5px;
+    }
+    .lista li a {
+      font-size: .75rem;
+      padding: 10px 20px;
+    }
   }

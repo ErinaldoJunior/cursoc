@@ -21,3 +21,20 @@ footer {
   color: #eee;
   font-size: 1.125rem;
 }
+
+@media (max-width: 800px) {
+  .footer-grid h2 {
+    font-size: .75rem;
+   }
+   .footer-grid a {
+    font-size: .75rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer-grid {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+}
