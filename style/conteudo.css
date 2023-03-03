@@ -85,6 +85,8 @@ pre {
 }
 
 @media (max-width: 600px) {
+  pre {
+    display: none;  }
   .conteudo-texto h2, 
   .exercicio h2 {
     text-align: center;
