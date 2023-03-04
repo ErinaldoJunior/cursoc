@@ -46,6 +46,7 @@
     margin-top: 100px;
   }
   .bemvindo h2 {
+    text-transform: uppercase;
     font-size: 2.125rem;
   }
   .bemvindo p {

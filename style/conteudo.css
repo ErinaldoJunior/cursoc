@@ -50,10 +50,9 @@ iframe {
 }
 
 pre {
-  width: max-content;
   padding: 10px;
   background:#40403F;
-  font-size: .75rem;
+  font-size: 1rem;
   color: #eee;
   border: 2px;
 }
@@ -85,8 +84,7 @@ pre {
 }
 
 @media (max-width: 600px) {
-   pre {
-    display: none;  }
+   
   .conteudo-texto h2, 
   .exercicio h2 {
     text-align: center;
@@ -103,5 +101,12 @@ pre {
   iframe {
     width: 300px;
     height: 150px;
+  }
+
+  pre {
+    width: 300px;
+    overflow: scroll;
+    align-self: center;
+    font-size: .75rem;
   }
 }
