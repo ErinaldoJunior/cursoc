@@ -87,7 +87,7 @@ pre {
    
   .conteudo-texto h2, 
   .exercicio h2 {
-    text-align: center;
+    text-align: start;
   }
 
 .conteudo-texto h2, .exercicio h2 {
