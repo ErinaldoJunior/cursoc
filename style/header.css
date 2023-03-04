@@ -18,35 +18,60 @@ header {
 
 .lista-menu { 
   display: none;
-  flex-wrap: wrap;
   position: absolute;
   left: 0;
-  top: 107px;
+  top: 106px;
   background: #f2f2f2;
   padding: 5px 10px;
   border-radius: 0 0 3px 3px;
   border-right: 1px solid rgba(0, 0, 0, .2);
-  border-bottom: 1px solid rgba(0, 0, 0, .2);
-  border-left: 1px solid rgba(0, 0, 0, .2);
-  gap: 2px;
+  border-top: 1px solid rgba(0, 0, 0, .2);
   flex-direction: column;
-  height: min-content;
+  height: 600px;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+  width: 300px;
 }
 
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: rgba(62,161,219,1) #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color:rgba(62,161,219,1);
+    border-radius: 0px;
+    border: 3px solid #ffffff;
+  }
 
 .lista-menu li a {
-    padding: 5px 10px;
-    text-align: center;
+    padding: 5px 5px;
+    text-align: start;
     text-transform: uppercase;
     transition: 0.5s;
     background-size: 200% auto;         
     border-bottom: 1px solid rgba(0, 0, 0, .1);
     border-radius: 2px;
     display: block;
-    font-size: .8rem;
+    font-size: .875rem;
     transition: .1s;
     font-weight: 600;
-    color: #40403F;  
+    color: #40403F;
+  }
+
+  .lista-menu li a[href^="#exer11"] {
+    border: none;
   }
 
 
@@ -102,7 +127,6 @@ header {
   cursor: pointer;
   width: 40px;
   padding: 20px 40px;
-  margin-left: 30px;
 }
 
 .ativar-menu {
@@ -172,15 +196,19 @@ header {
     padding: 5px 10px;
   }
   .lista-menu {
-    box-sizing: border-box;
+    overflow: initial;
     left: initial;
     right: 0;
     top: 80px;
     padding: 5px 10px;
+    border-left: 1px solid rgba(0, 0, 0, .1);
+    height: max-content;
+    gap: 2px;
   }
   .lista-menu li a{
     font-size: .75rem;
     padding: 2px;
+    text-align: center;
   }
 
   .menu {

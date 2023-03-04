@@ -85,7 +85,7 @@ pre {
 }
 
 @media (max-width: 600px) {
-  pre {
+   pre {
     display: none;  }
   .conteudo-texto h2, 
   .exercicio h2 {
