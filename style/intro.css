@@ -39,6 +39,12 @@
 }
 
 @media (max-width: 550px) {
+  .intro #seta {
+  display: none;
+}
+  .intro {
+    margin-top: 100px;
+  }
   .bemvindo h2 {
     font-size: 2rem;
   }

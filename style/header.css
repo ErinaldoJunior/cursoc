@@ -152,10 +152,11 @@ header {
 
 @media (max-width: 650px) {
   .header {
-    padding: 10px 60px;
+    padding: 10px;
     gap: 20px;
     flex-wrap: wrap;
     justify-content: space-between;
+    background-color: #40403F;
   }
   .logo2 {
     display: inline-block;
@@ -166,22 +167,25 @@ header {
   }
   .lista-menu li .link-none {
     display: block;
-    font-size: .5rem;
+    font-size: .75rem;
     text-align: end;
- 
+    padding: 5px 10px;
   }
   .lista-menu {
+    box-sizing: border-box;
     left: initial;
-    right: 30px;
-    width: max-content;
-    top: 97px;
-    padding: 0;
+    right: 0;
+    top: 80px;
+    padding: 5px 10px;
   }
   .lista-menu li a{
-    font-size: .5rem;
+    font-size: .75rem;
+    padding: 2px;
   }
+
   .menu {
-    margin-left: 0px;
+    margin: 0px;
+    padding: 10px;
     width: 30px;
   }
 
@@ -191,5 +195,10 @@ header {
 
   .lista-menu li a[href^="#de"] {
     display: none;
+  }
+
+  .lista-menu li a[href^="#aula14"] {
+    border-bottom: none;
+    padding-bottom: 0px;
   }
 }
