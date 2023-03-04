@@ -86,6 +86,11 @@ header {
   align-items: center;
   gap: 10px;
 }
+.grid-darklogo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
 
 .logo {
   max-width: 80px;
@@ -94,6 +99,11 @@ header {
 .logo2 {
   max-width: 80px;
   display: none;
+}
+
+.darklogo {
+  width: 40px;
+  cursor: pointer;
 }
 
 .titulo {
@@ -160,6 +170,9 @@ header {
   }
   .grid-logo {
     display: none ;
+  }
+  .darklogo {
+    display: none;
   }
 }
 
@@ -229,4 +242,7 @@ header {
     border-bottom: none;
     padding-bottom: 0px;
   }
+  .grid-darklogo {
+    display: none;
+   }
 }

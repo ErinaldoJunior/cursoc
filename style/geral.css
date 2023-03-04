@@ -48,3 +48,33 @@ a, ul, li, h1, h2, p, h3, ol {
 .border-none {
   border-bottom: none;
 }
+
+.dark-mode {
+  background: #40403F;
+  color: #EEEEEE;
+}
+
+.dark-mode p {
+  color: #EEEEEE;
+}
+
+.dark-mode pre {
+  background-color: #EEEEEE;
+  color: #40403F;
+}
+
+.dark-mode.topicos h2{
+  font-size: 14rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: rgba(255,255,255, 0.3);
+  text-shadow: 0 400px rgba(255,255,255, 0.3), 0 200px rgba(255,255,255, 0.3), 0 -400px rgba(255,255,255, 0.3), 0 -200px rgba(255,255,255, 0.3);
+}
+
+.dark-mode ul{
+  background: #40403F;
+}
+
+.dark-mode ul li a{
+  color: #EEEEEE;
+}
