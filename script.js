@@ -82,14 +82,12 @@ const darklogo = document.querySelector('.darklogo');
 const body = document.querySelector('body');
 const conteudo = document.querySelector('.conteudo');
 const header = document.querySelector('header');
-const topicos = document.querySelector('.topicos');
 
 function ativarDarkMode(event) {
   event.preventDefault();
   body.classList.toggle('dark-mode');
   conteudo.classList.toggle('dark-mode');
   header.classList.toggle('dark-mode');
-  topicos.classList.toggle('dark-mode');
 }
 
 darklogo.addEventListener('click', ativarDarkMode);
