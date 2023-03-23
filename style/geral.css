@@ -3,6 +3,7 @@ body {
   background-color:#EEEEEE;
   font-family: 'Poppins', sans-serif;
   color: #40403F;
+  transition: .3s;
 }
 
 a, ul, li, h1, h2, p, h3, ol {
